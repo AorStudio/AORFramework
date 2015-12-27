@@ -1,0 +1,56 @@
+<appCfg>
+  <appInfo>
+  	<!-- 项目注册名称  -->
+    <name><![CDATA[项目应用名称]]></name>
+  </appInfo>
+  <network>
+    <socket>
+      <ip>127.0.0.1</ip>
+      <port>6000</port>
+      <encodeType>GBK</encodeType>
+    </socket>
+    <server>
+      <ip>127.0.0.1</ip>
+      <port>8327</port>
+      <encodeType>GBK</encodeType>
+      <checkClientTime>2000</checkClientTime>
+    </server>
+  </network>
+  <fullScreen>
+  	<!-- EnableFullScreen 	:		启用全屏全屏 -->
+    <EnableFullScreen>true</EnableFullScreen>
+    <!-- invalidESC 		:		强制全屏（按ESC不会退出全屏） -->
+    <forceFullScreen>false</forceFullScreen>
+  </fullScreen>
+  <!-- window 标签仅在 fullScreen.EnableFullScreen = false 时其作用-->
+  <window>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+	<!-- alwaysInFront 窗口是否启用总是靠前 -->
+    <alwaysInFront>false</alwaysInFront>
+  </window>
+  <module>
+  	<!-- 是否启用SocketManager(客户端) -->
+    <SocketManager>true</SocketManager>
+    <!-- 是否启用ServerSocketManager(服务端) -->
+    <ServerSocketManager>false</ServerSocketManager>
+  </module>
+  <resize>
+  	<!-- 缩放最小值 -->
+    <min>
+      <width>600</width>
+      <height>600</height>
+    </min>
+    <!-- 缩放最大值 -->
+    <max>
+      <width>4096</width>
+      <height>4096</height>
+    </max>
+  </resize>
+  <mouse>
+  	<!-- 运行时是否隐藏鼠标 -->
+    <mouseHide>false</mouseHide>
+  </mouse>
+</appCfg>

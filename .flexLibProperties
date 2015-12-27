@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="entry.AORFWEntry"/>
+    <classEntry path="logic.CommandManager"/>
+    <classEntry path="logic.Core"/>
+    <classEntry path="logic.FrameworkCmds"/>
+    <classEntry path="page.BasePage"/>
+    <classEntry path="licensing.LicenseModel"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>
